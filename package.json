@@ -1,0 +1,22 @@
+{
+  "name": "formback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "div": "nodemon src/app.js -e js,hbs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --config webpack.conf.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "build": "^0.1.4",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.19"
+  }
+}
